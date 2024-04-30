@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)
 
 model = load_model('C:/Users/pcadmin/Documents/Erangi/The Gem Spectrum/GemApp/my_gem_model.h5')
-categories = ['Ametrine', 'Emerald']
+categories = ['Amertine','Emerald']
 save_directory = 'C:/Users/pcadmin/Documents/Erangi/The Gem Spectrum/GemApp/my-gem-app/images'
 
 if not os.path.exists(save_directory):
